@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80329FD422F367F700234C08 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80329FD322F367F700234C08 /* AppDelegate.m */; };
+		80329FD722F367F700234C08 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80329FD622F367F700234C08 /* HomeViewController.m */; };
+		80329FDA22F367F700234C08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80329FD822F367F700234C08 /* Main.storyboard */; };
+		80329FDC22F367F900234C08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80329FDB22F367F900234C08 /* Assets.xcassets */; };
+		80329FDF22F367F900234C08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80329FDD22F367F900234C08 /* LaunchScreen.storyboard */; };
+		80329FE222F367F900234C08 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 80329FE122F367F900234C08 /* main.m */; };
+		80329FEC22F367F900234C08 /* SHQRCodeScannerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 80329FEB22F367F900234C08 /* SHQRCodeScannerTests.m */; };
+		80329FF722F367F900234C08 /* SHQRCodeScannerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 80329FF622F367F900234C08 /* SHQRCodeScannerUITests.m */; };
+		8032A00822F368C700234C08 /* SHScannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8032A00622F368C700234C08 /* SHScannerViewController.m */; };
+		8032A00922F368C700234C08 /* SHScannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8032A00622F368C700234C08 /* SHScannerViewController.m */; };
+		8032A00A22F368C700234C08 /* SHScannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8032A00622F368C700234C08 /* SHScannerViewController.m */; };
+		8032A00B22F368C700234C08 /* SHScannerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8032A00722F368C700234C08 /* SHScannerViewController.xib */; };
+		8032A00C22F368C700234C08 /* SHScannerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8032A00722F368C700234C08 /* SHScannerViewController.xib */; };
+		8032A00D22F368C700234C08 /* SHScannerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8032A00722F368C700234C08 /* SHScannerViewController.xib */; };
+		8032FF0F22F4BCC900B70F85 /* DataTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8032FF0D22F4BCC900B70F85 /* DataTableViewCell.m */; };
+		8032FF1022F4BCC900B70F85 /* DataTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8032FF0D22F4BCC900B70F85 /* DataTableViewCell.m */; };
+		8032FF1122F4BCC900B70F85 /* DataTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8032FF0D22F4BCC900B70F85 /* DataTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		80329FE822F367F900234C08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80329FC722F367F700234C08 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80329FCE22F367F700234C08;
+			remoteInfo = SHQRCodeScanner;
+		};
+		80329FF322F367F900234C08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80329FC722F367F700234C08 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80329FCE22F367F700234C08;
+			remoteInfo = SHQRCodeScanner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		80329FCF22F367F700234C08 /* SHQRCodeScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SHQRCodeScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80329FD222F367F700234C08 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		80329FD322F367F700234C08 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		80329FD522F367F700234C08 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		80329FD622F367F700234C08 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		80329FD922F367F700234C08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		80329FDB22F367F900234C08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		80329FDE22F367F900234C08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		80329FE022F367F900234C08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80329FE122F367F900234C08 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		80329FE722F367F900234C08 /* SHQRCodeScannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SHQRCodeScannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80329FEB22F367F900234C08 /* SHQRCodeScannerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHQRCodeScannerTests.m; sourceTree = "<group>"; };
+		80329FED22F367F900234C08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80329FF222F367F900234C08 /* SHQRCodeScannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SHQRCodeScannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80329FF622F367F900234C08 /* SHQRCodeScannerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHQRCodeScannerUITests.m; sourceTree = "<group>"; };
+		80329FF822F367F900234C08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8032A00522F368C700234C08 /* SHScannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHScannerViewController.h; sourceTree = "<group>"; };
+		8032A00622F368C700234C08 /* SHScannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHScannerViewController.m; sourceTree = "<group>"; };
+		8032A00722F368C700234C08 /* SHScannerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SHScannerViewController.xib; sourceTree = "<group>"; };
+		8032FF0C22F4BCC900B70F85 /* DataTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataTableViewCell.h; sourceTree = "<group>"; };
+		8032FF0D22F4BCC900B70F85 /* DataTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataTableViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80329FCC22F367F700234C08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80329FE422F367F900234C08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80329FEF22F367F900234C08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80329FC622F367F700234C08 = {
+			isa = PBXGroup;
+			children = (
+				8032A00422F368C700234C08 /* SHScannerViewController */,
+				80329FD122F367F700234C08 /* SHQRCodeScanner */,
+				80329FEA22F367F900234C08 /* SHQRCodeScannerTests */,
+				80329FF522F367F900234C08 /* SHQRCodeScannerUITests */,
+				80329FD022F367F700234C08 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80329FD022F367F700234C08 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80329FCF22F367F700234C08 /* SHQRCodeScanner.app */,
+				80329FE722F367F900234C08 /* SHQRCodeScannerTests.xctest */,
+				80329FF222F367F900234C08 /* SHQRCodeScannerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80329FD122F367F700234C08 /* SHQRCodeScanner */ = {
+			isa = PBXGroup;
+			children = (
+				80329FD222F367F700234C08 /* AppDelegate.h */,
+				80329FD322F367F700234C08 /* AppDelegate.m */,
+				80329FD522F367F700234C08 /* HomeViewController.h */,
+				80329FD622F367F700234C08 /* HomeViewController.m */,
+				80329FD822F367F700234C08 /* Main.storyboard */,
+				80329FDB22F367F900234C08 /* Assets.xcassets */,
+				80329FDD22F367F900234C08 /* LaunchScreen.storyboard */,
+				80329FE022F367F900234C08 /* Info.plist */,
+				80329FE122F367F900234C08 /* main.m */,
+				8032FF0C22F4BCC900B70F85 /* DataTableViewCell.h */,
+				8032FF0D22F4BCC900B70F85 /* DataTableViewCell.m */,
+			);
+			path = SHQRCodeScanner;
+			sourceTree = "<group>";
+		};
+		80329FEA22F367F900234C08 /* SHQRCodeScannerTests */ = {
+			isa = PBXGroup;
+			children = (
+				80329FEB22F367F900234C08 /* SHQRCodeScannerTests.m */,
+				80329FED22F367F900234C08 /* Info.plist */,
+			);
+			path = SHQRCodeScannerTests;
+			sourceTree = "<group>";
+		};
+		80329FF522F367F900234C08 /* SHQRCodeScannerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				80329FF622F367F900234C08 /* SHQRCodeScannerUITests.m */,
+				80329FF822F367F900234C08 /* Info.plist */,
+			);
+			path = SHQRCodeScannerUITests;
+			sourceTree = "<group>";
+		};
+		8032A00422F368C700234C08 /* SHScannerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8032A00522F368C700234C08 /* SHScannerViewController.h */,
+				8032A00622F368C700234C08 /* SHScannerViewController.m */,
+				8032A00722F368C700234C08 /* SHScannerViewController.xib */,
+			);
+			path = SHScannerViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80329FCE22F367F700234C08 /* SHQRCodeScanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80329FFB22F367F900234C08 /* Build configuration list for PBXNativeTarget "SHQRCodeScanner" */;
+			buildPhases = (
+				80329FCB22F367F700234C08 /* Sources */,
+				80329FCC22F367F700234C08 /* Frameworks */,
+				80329FCD22F367F700234C08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SHQRCodeScanner;
+			productName = SHQRCodeScanner;
+			productReference = 80329FCF22F367F700234C08 /* SHQRCodeScanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		80329FE622F367F900234C08 /* SHQRCodeScannerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80329FFE22F367F900234C08 /* Build configuration list for PBXNativeTarget "SHQRCodeScannerTests" */;
+			buildPhases = (
+				80329FE322F367F900234C08 /* Sources */,
+				80329FE422F367F900234C08 /* Frameworks */,
+				80329FE522F367F900234C08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80329FE922F367F900234C08 /* PBXTargetDependency */,
+			);
+			name = SHQRCodeScannerTests;
+			productName = SHQRCodeScannerTests;
+			productReference = 80329FE722F367F900234C08 /* SHQRCodeScannerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		80329FF122F367F900234C08 /* SHQRCodeScannerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8032A00122F367F900234C08 /* Build configuration list for PBXNativeTarget "SHQRCodeScannerUITests" */;
+			buildPhases = (
+				80329FEE22F367F900234C08 /* Sources */,
+				80329FEF22F367F900234C08 /* Frameworks */,
+				80329FF022F367F900234C08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80329FF422F367F900234C08 /* PBXTargetDependency */,
+			);
+			name = SHQRCodeScannerUITests;
+			productName = SHQRCodeScannerUITests;
+			productReference = 80329FF222F367F900234C08 /* SHQRCodeScannerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80329FC722F367F700234C08 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Shakir Husain";
+				TargetAttributes = {
+					80329FCE22F367F700234C08 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					80329FE622F367F900234C08 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 80329FCE22F367F700234C08;
+					};
+					80329FF122F367F900234C08 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 80329FCE22F367F700234C08;
+					};
+				};
+			};
+			buildConfigurationList = 80329FCA22F367F700234C08 /* Build configuration list for PBXProject "SHQRCodeScanner" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 80329FC622F367F700234C08;
+			productRefGroup = 80329FD022F367F700234C08 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80329FCE22F367F700234C08 /* SHQRCodeScanner */,
+				80329FE622F367F900234C08 /* SHQRCodeScannerTests */,
+				80329FF122F367F900234C08 /* SHQRCodeScannerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80329FCD22F367F700234C08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8032A00B22F368C700234C08 /* SHScannerViewController.xib in Resources */,
+				80329FDF22F367F900234C08 /* LaunchScreen.storyboard in Resources */,
+				80329FDC22F367F900234C08 /* Assets.xcassets in Resources */,
+				80329FDA22F367F700234C08 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80329FE522F367F900234C08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8032A00C22F368C700234C08 /* SHScannerViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80329FF022F367F900234C08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8032A00D22F368C700234C08 /* SHScannerViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80329FCB22F367F700234C08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8032A00822F368C700234C08 /* SHScannerViewController.m in Sources */,
+				80329FD722F367F700234C08 /* HomeViewController.m in Sources */,
+				80329FE222F367F900234C08 /* main.m in Sources */,
+				8032FF0F22F4BCC900B70F85 /* DataTableViewCell.m in Sources */,
+				80329FD422F367F700234C08 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80329FE322F367F900234C08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8032FF1022F4BCC900B70F85 /* DataTableViewCell.m in Sources */,
+				8032A00922F368C700234C08 /* SHScannerViewController.m in Sources */,
+				80329FEC22F367F900234C08 /* SHQRCodeScannerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80329FEE22F367F900234C08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8032FF1122F4BCC900B70F85 /* DataTableViewCell.m in Sources */,
+				8032A00A22F368C700234C08 /* SHScannerViewController.m in Sources */,
+				80329FF722F367F900234C08 /* SHQRCodeScannerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		80329FE922F367F900234C08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80329FCE22F367F700234C08 /* SHQRCodeScanner */;
+			targetProxy = 80329FE822F367F900234C08 /* PBXContainerItemProxy */;
+		};
+		80329FF422F367F900234C08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80329FCE22F367F700234C08 /* SHQRCodeScanner */;
+			targetProxy = 80329FF322F367F900234C08 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		80329FD822F367F700234C08 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80329FD922F367F700234C08 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		80329FDD22F367F900234C08 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80329FDE22F367F900234C08 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80329FF922F367F900234C08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		80329FFA22F367F900234C08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80329FFC22F367F900234C08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z6DXEW9CFE;
+				INFOPLIST_FILE = SHQRCodeScanner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chatapp.dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		80329FFD22F367F900234C08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z6DXEW9CFE;
+				INFOPLIST_FILE = SHQRCodeScanner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chatapp.dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		80329FFF22F367F900234C08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SHQRCodeScannerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shqrcodescanner.test.SHQRCodeScannerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SHQRCodeScanner.app/SHQRCodeScanner";
+			};
+			name = Debug;
+		};
+		8032A00022F367F900234C08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SHQRCodeScannerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shqrcodescanner.test.SHQRCodeScannerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SHQRCodeScanner.app/SHQRCodeScanner";
+			};
+			name = Release;
+		};
+		8032A00222F367F900234C08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SHQRCodeScannerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shqrcodescanner.test.SHQRCodeScannerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SHQRCodeScanner;
+			};
+			name = Debug;
+		};
+		8032A00322F367F900234C08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SHQRCodeScannerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shqrcodescanner.test.SHQRCodeScannerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SHQRCodeScanner;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80329FCA22F367F700234C08 /* Build configuration list for PBXProject "SHQRCodeScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80329FF922F367F900234C08 /* Debug */,
+				80329FFA22F367F900234C08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80329FFB22F367F900234C08 /* Build configuration list for PBXNativeTarget "SHQRCodeScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80329FFC22F367F900234C08 /* Debug */,
+				80329FFD22F367F900234C08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80329FFE22F367F900234C08 /* Build configuration list for PBXNativeTarget "SHQRCodeScannerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80329FFF22F367F900234C08 /* Debug */,
+				8032A00022F367F900234C08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8032A00122F367F900234C08 /* Build configuration list for PBXNativeTarget "SHQRCodeScannerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8032A00222F367F900234C08 /* Debug */,
+				8032A00322F367F900234C08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80329FC722F367F700234C08 /* Project object */;
+}
